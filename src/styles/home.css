@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Sans:wght@100;200;300;400&family=Pangolin&family=Rubik+Puddles&family=Smokum&display=swap');
+
+body{
+
+    background-color: #2d3436;
+    background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+    
+
+}
+
+#nav{
+
+    background-color: #2d3436;
+    background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+    
+
+
+}
+
+
+#user{
+
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 200px;
+}
+#home{
+
+    margin-left: -100px;
+}
+
+#options{
+
+    margin-left: 450px;
+    font-size: 1.5rem;
+}
+
+#option2{
+
+    margin-left: 70px;
+    font-size: 1.5rem;
+}
+
+#option3{
+
+    margin-left: 70px;
+    font-size: 1.5rem;
+}
+
+#btn1{
+
+    margin-left: 200px;
+    background-color: yellow;
+    color: black;
+    width: 6rem;
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+    
+
+}
+
+#btn2{
+
+    margin-left: 40px;
+    background-color: blue;
+    color: white;
+    width: 6rem;
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+    
+
+}
+
+#img1{
+
+    height: 80vh;
+    
+   
+}
+
+#h1{
+
+   
+    padding: 100px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Pangolin', cursive;
+}
+
+
+.rightSide{
+
+    position: relative;
+    top: -200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+
+
+
+#para{
+
+    color: white;
+    position: relative;
+    top: -100px;
+   margin-left: -290px;
+    font-family: 'Pangolin', cursive;
+    font-size: 1.5rem;
+}
+
+#crousal-part{
+
+    color: white;
+    font-family: 'Pangolin', cursive;
+    position: relative;
+    top: -150px;
+    left: 350px;
+}
+
+.crousal-part{
+
+       display: flex;
+       justify-content: center;
+       align-items: center;
+}
+
+#input-part{
+
+    width: 80%;
+    margin-left: -500px;
+    position: relative;
+    top: -70px;
+    height: 60px;
+    background-color: #2d3436;
+    background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+    border: 1px solid yellow;
+    left: -40px;
+    color: white;
+    padding: 1rem;
+    font-size: 1.2rem;
+
+}
+
+#input-part:hover{
+
+    border: 3px solid white;
+}
+
+
+
+#cryptoDisplay {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-top: 20px;
+    
+   
+   
+
+    
+  }
+
+  .cryptoDisplay:hover{
+
+       transform: scale(1.01);
+  }
+
+  .coin {
+    width: 400px;
+    height: 300px;
+   
+    background-color: #2d3436;
+    background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+    border: 2px solid yellow;
+    
+    
+    
+  }
+
+
+  #hy{
+
+    color: white;
+
+    font-size: 12rem;
+  }
+  .coin img {
+    height: 100px;
+  }
+
+.loader {
+
+    height: 90px;
+    width: 90px;
+
+
+  }
+
+  .pagination {
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 800px;
+    margin-top: -30px;
+  }
+  
+  .pagination ul {
+    list-style: none;
+    display: inline-flex;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .pagination li {
+    margin: 0 5px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .pagination button {
+    border: none;
+    background-color: #e5e5e5;
+    color: #333;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    border-radius: 4px;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+  }
+  
+  .pagination button:hover,
+  .pagination button.active {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .pagination button:focus {
+    outline: none;
+  }
+  
+  .pagination li.fade-in {
+    animation: fade-in 0.6s ease-in-out forwards;
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+.loader-for-whole-page{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.leftSide{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
