@@ -56,7 +56,7 @@ const Home = () => {
           <Header />
 
           <div className="leftSide">
-            <h1 id="h1">Crypto Creek</h1>
+            
             <p id="para">
               Get All The Info Regarding{' '}
               <span style={{ color: 'purple' }}>Your Favorite Crypto Currency</span>

@@ -48,7 +48,7 @@ const CoinHistory = () => {
     };
 
     fetchData();
-  }, []);
+  });
 
   useEffect(() => {
     const fetchPrice = async () => {
