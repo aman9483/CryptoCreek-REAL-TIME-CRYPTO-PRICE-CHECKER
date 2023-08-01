@@ -55,13 +55,7 @@ const Home = () => {
         <>
           <Header />
 
-          <div className="leftSide">
-            
-            <p id="para">
-              Get All The Info Regarding{' '}
-              <span style={{ color: 'purple' }}>Your Favorite Crypto Currency</span>
-            </p>
-          </div>
+
 
           <div className="rightSide">
             <img src={Hero} alt="bitimage" id="img1" />

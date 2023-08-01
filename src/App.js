@@ -3,6 +3,9 @@ import './App.css';
 import { BrowserRouter,Routes, Route } from 'react-router-dom';
 // eslint-disable-next-line no-unused-vars
 import CoinDetails from './pages/coindetails';
+import LoginForm from './components/LoginForm/LoginForm';
+
+
 
 
 function App() {
@@ -15,8 +18,13 @@ function App() {
      <Routes>
 
      <Route path='/' element = {<Home/>}/>
+     <Route path='/login' element = {<LoginForm/>}/>
 
      <Route path="/coins/:id" element={<CoinDetails />} />
+
+    
+
+  
 
         </Routes>
     
