@@ -38,7 +38,7 @@ const CoinHistory = () => {
     }
   };
 
-  useEffect(() => {
+  
     const fetchData = async () => {
       try {
         await fetchCoin();
@@ -48,7 +48,7 @@ const CoinHistory = () => {
     };
 
     fetchData();
-  });
+ 
 
   useEffect(() => {
     const fetchPrice = async () => {
