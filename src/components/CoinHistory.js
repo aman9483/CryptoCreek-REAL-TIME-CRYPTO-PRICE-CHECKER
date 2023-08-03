@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom';
 import styled from 'styled-components';
 import Loading from '../asset/loader.gif';
 import { SingleCoin } from '../config/api';
+import '../styles/home.css';
 
 const CoinHistory = () => {
   const [coinData, setCoinData] = useState(null);
@@ -105,6 +106,8 @@ const Wrapper = styled.div`
   img {
     height: 30vh;
   }
+
+  
 
   h1 {
     font-size: 5em;

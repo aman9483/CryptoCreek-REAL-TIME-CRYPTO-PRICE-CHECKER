@@ -37,6 +37,14 @@ body{
     font-size: 1.5rem;
 }
 
+.loader-for-whole-page{
+
+  
+  display: flex;
+  justify-content:  center;
+  align-items: center;
+}
+
 #option2{
 
     margin-left: 70px;
